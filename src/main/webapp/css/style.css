@@ -1,0 +1,48 @@
+* {
+    font-family: "Arial Rounded MT Bold";
+
+}
+
+.blue {
+    background-color: #007BFF;
+}
+
+.lblue {
+    background-color: #e9ecef;
+}
+
+.card-body {
+    background-color: #f2f6f7;
+}
+
+@media screen and (max-width : 320px) {
+    html {
+        font-size: 0.3rem;
+    }
+}
+
+@media screen and (max-width : 480px) {
+    html {
+        font-size: 0.4rem;
+    }
+}
+
+@media screen and (max-width : 768px)
+{
+html {
+    font-size: 0.8rem;
+}
+
+}
+
+@media screen and (max-width : 1024px) {
+    html {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width : 1200px) {
+    html {
+        font-size: 1.2rem;
+    }
+}

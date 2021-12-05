@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4e991f29-ac7f-47db-a06b-d668cb72c2de" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/HW1-Rental-Webapp-2020-2021.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mockup_img/Landlord_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mockup_img/Student_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mockup_img/admin_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web Application_ Property Rental.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw1-score.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/DiscussionProject/DBstructure.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/DiscussionProject/ER-Schema.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/DiscussionProject/PagesStructor.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/DiscussionProject/RentRoomEER.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/DiscussionProject/RentRoomERv2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/DiscussionProject/relation schema.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/HW1.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/Questions.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/TaskTODO.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/first trial of page design.bmpr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/utils/commandUsefull.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/search-room-form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/search-room-form.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1t2Icw0GxJsK53sLfqSFy8uz99M" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4e991f29-ac7f-47db-a06b-d668cb72c2de" name="Default Changelist" comment="" />
+      <created>1621960842999</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1621960842999</updated>
+      <workItem from="1621960845374" duration="53943000" />
+      <workItem from="1622115711973" duration="2178000" />
+      <workItem from="1622130633346" duration="30497000" />
+      <workItem from="1622199574043" duration="7587000" />
+      <workItem from="1622215433961" duration="10219000" />
+      <workItem from="1622229316886" duration="10223000" />
+      <workItem from="1622789736632" duration="33268000" />
+      <workItem from="1622883756393" duration="14547000" />
+      <workItem from="1622973063704" duration="1795000" />
+      <workItem from="1623237982833" duration="2095000" />
+      <workItem from="1625316736328" duration="1192000" />
+      <workItem from="1625483988019" duration="813000" />
+      <workItem from="1638736615060" duration="312000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="Demo" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

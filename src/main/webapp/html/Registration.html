@@ -1,0 +1,94 @@
+
+<div class="container">
+    <div id="modalTarget" ></div>
+
+  <div class="card m-sm-5">
+    <div class="card-header"><i class="fas fa-user-plus"></i> Registration Form </div>
+    <div class ="card-body p-sm-5">
+      <div class="card-header" id="headingOne">
+        <h2 class="mb-0">
+          <button type="button" onclick="changeText(event,'Registration')" class="btn btn-link" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="true" aria-controls="collapseOne">
+            <span id="loggin_type"> Click for change to Landlord Registration </span>
+          </button>
+        </h2>
+      </div>
+      <div id="accordation">
+        <div id="Student" class="collapse show multi-collapse" aria-labelledby="headingOne" data-parent="#accordation">
+<!--      <form class="form" method="POST" action="New-Studnet" enctype="multipart/form-data"/>-->
+            <p class="text-center h5 p-2"> Student Registration </p>
+
+          <div class="form-group m-sm-3">
+            <label for="s_taxcode">Fiscal code:</label>
+            <input type="text" class="form-control" name="s_taxcode" id="s_taxcode" placeholder="MRTMTT91D08F205J">
+          </div>
+
+          <div class="form-group m-sm-3">
+            <label for="s_name">Name:</label>
+            <input type="text" class="form-control" name="s_name" id="s_name" placeholder=" Lastname  Firstname ">
+          </div>
+
+          <div class="form-group m-sm-3">
+            <label for="s_age">Age:</label>
+            <input type="number" class="form-control" name="age" id="s_age" placeholder="25">
+          </div>
+
+          <div class="form-group m-sm-3">
+            <label for="country">Country:</label>
+            <input type="text" class="form-control" name="country" id="country" placeholder="Italy">
+          </div>
+
+          <div class="form-group m-sm-3">
+            <label for="foreign_lang">Foreign language:</label>
+            <input type="text" class="form-control" name="foreign_lang" id="foreign_lang" placeholder="English">
+          </div>
+
+          <div class="form-group m-sm-3">
+            <label for="password">password:</label>
+            <input type="password" class="form-control" name="password" id="s_password" placeholder="Pm***2***">
+          </div>
+
+          <div class="form-group m-sm-3">
+            <label for="scannedID">ID Soft Copy :</label>
+            <input type="file" class="form-control-file" name="scannedID" id="s_scannedID">
+          </div>
+
+          <div class="form-group m-sm-3">
+              <button type="submit" class="btn btn-primary" onclick="studentRegistration()">Submit</button>
+            <button type="reset" class="btn">Reset the form</button>
+          </div>
+
+
+        </div>
+        <div id="Landlord" class="collapse multi-collapse" aria-labelledby="headingOne" data-parent="#accordation">
+            <p class="text-center h5 p-2"> Landlord Registration </p>
+
+            <div class="form-group">
+                <label for="l_taxcode">Fiscal code:</label>
+                <input type="text" class="form-control" name="l_taxcode" id="l_taxcode" placeholder="MRTMTT91D08F205J">
+            </div>
+
+            <div class="form-group">
+                <label for="l_name">Name:</label>
+                <input type="text" class="form-control" name="l_name" id="l_name" placeholder="Lastname Firstname">
+            </div>
+
+            <div class="form-group">
+                <label for="password">password:</label>
+                <input type="password" class="form-control" name="password" id="password" placeholder="Pm***2***">
+            </div>
+
+            <div class="form-group">
+                <label for="scannedID">ID Soft Copy :</label>
+                <input type="file" class="form-control-file" name="scannedID" id="scannedID">
+            </div>
+
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary" onclick="landlordRegistration()">Submit</button>
+
+                <button type="reset" class="btn">Reset the form</button>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

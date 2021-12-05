@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<web-app id="PropertyRental-webapp" version="4.0" xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd">
+    
+	<display-name>PropertyRental</display-name>
+	<description>PropertyRental </description>
+
+	<welcome-file-list>
+		<welcome-file>jsp/index.jsp</welcome-file>
+	</welcome-file-list>
+
+	<!--
+        <filter>
+            <filter-name>AdminFilter</filter-name>
+            <filter-class>filter.AdminFilter</filter-class>
+        </filter>
+        <filter-mapping>
+            <filter-name>AdminFilter</filter-name>
+            <url-pattern>/jsp/Admin-Logging-Result.jsp</url-pattern>
+            <url-pattern>/jsp/AdminReviewApartment-Form.jsp</url-pattern>
+            <url-pattern>/jsp/AdminReviewApartment-Result.jsp</url-pattern>
+            <url-pattern>/jsp/AdminReviewLandlord-Form.jsp</url-pattern>
+            <url-pattern>/jsp/AdminReviewLandlord-Result.jsp</url-pattern>
+            <url-pattern>/jsp/AdminReviewStudent-Form.jsp</url-pattern>
+            <url-pattern>/jsp/AdminReviewStudent-Result.jsp</url-pattern>
+            <url-pattern>/jsp/AdminUpdateApp-Form.jsp</url-pattern>
+            <url-pattern>/jsp/AdminUpdateApp-Result.jsp</url-pattern>
+            <url-pattern>/jsp/AdminUpdateLandlord-Form.jsp</url-pattern>
+            <url-pattern>/jsp/AdminUpdateLandlord-Result.jsp</url-pattern>
+            <url-pattern>/jsp/AdminUpdateStudent-Form.jsp</url-pattern>
+            <url-pattern>/jsp/AdminUpdateStudent-Result.jsp</url-pattern>
+        </filter-mapping>
+
+        <filter>
+            <filter-name>LandLordFilter</filter-name>
+            <filter-class>filter.LandLordFilter</filter-class>
+        </filter>
+        <filter-mapping>
+            <filter-name>LandLordFilter</filter-name>
+            <url-pattern>/jsp/Landlord-Logging-Result.jsp</url-pattern>
+            <url-pattern>/jsp/View-MyProperty-Form.jsp</url-pattern>
+            <url-pattern>/jsp/View-MyProperty-Result.jsp</url-pattern>
+            <url-pattern>/jsp/View-SpecificProperty-Form.jsp</url-pattern>
+            <url-pattern>/jsp/View-SpecificProperty-Result.jsp</url-pattern>
+            <url-pattern>/jsp/Add-NewApatment-Form.jsp</url-pattern>
+            <url-pattern>/jsp/Add-NewApatment-Result.jsp</url-pattern>
+            <url-pattern>/jsp/Add-NewRoom-Form.jsp</url-pattern>
+            <url-pattern>/jsp/Add-NewRoom-Result.jsp</url-pattern>
+            <url-pattern>/jsp/View-RentRequest-Form.jsp</url-pattern>
+            <url-pattern>/jsp/View-RentRequest-Result.jsp</url-pattern>
+            <url-pattern>/jsp/Update-RentRequest-Form.jsp</url-pattern>
+            <url-pattern>/jsp/Update-RentRequest-Result.jsp</url-pattern>
+        </filter-mapping>
+
+        <filter>
+            <filter-name>StudentFilter</filter-name>
+            <filter-class>filter.StudentFilter</filter-class>
+        </filter>
+        <filter-mapping>
+            <filter-name>StudentFilter</filter-name>
+            <url-pattern>/jsp/StudentLogging-Result.jsp</url-pattern>
+            <url-pattern>/jsp/create-room-result.jsp</url-pattern>
+            <url-pattern>/jsp/search-room-form.jsp</url-pattern>
+            <url-pattern>/jsp/search-room-result.jsp</url-pattern>
+            <url-pattern>/rest/*</url-pattern>
+        </filter-mapping>
+	-->
+
+
+        <servlet>
+            <servlet-name>RestManagerServlet</servlet-name>
+            <servlet-class>it.unipd.dei.webapp.servlet.RestManagerServlet</servlet-class>
+        </servlet>
+
+        <servlet-mapping>
+            <servlet-name>RestManagerServlet</servlet-name>
+            <url-pattern>/rest/*</url-pattern>
+        </servlet-mapping>
+
+        <servlet>
+            <servlet-name>ViewMyProperty</servlet-name>
+            <servlet-class>it.unipd.dei.webapp.servlet.ViewMyPropertyServlet</servlet-class>
+        </servlet>
+
+        <servlet>
+            <servlet-name>ViewSpecificProperty</servlet-name>
+            <servlet-class>it.unipd.dei.webapp.servlet.ViewSpecificPropertyServlet</servlet-class>
+        </servlet>
+
+        <servlet>
+            <servlet-name>ViewRentRequestLandlord</servlet-name>
+            <servlet-class>it.unipd.dei.webapp.servlet.ViewRentRequestServlet</servlet-class>
+        </servlet>
+
+        <servlet>
+            <servlet-name>UpdateRentRequestLandlord</servlet-name>
+            <servlet-class>it.unipd.dei.webapp.servlet.UpdateRentRequestServlet</servlet-class>
+        </servlet>
+
+        <servlet>
+            <servlet-name>AddNewApartmenttoLandlord</servlet-name>
+            <servlet-class>it.unipd.dei.webapp.servlet.NewApartmentServlet</servlet-class>
+        </servlet>
+
+        <servlet>
+            <servlet-name>AddNewRoomtoLandlord</servlet-name>
+            <servlet-class>it.unipd.dei.webapp.servlet.NewRoomServlet</servlet-class>
+        </servlet>
+
+        <servlet>
+            <servlet-name>LandLordinfo</servlet-name>
+            <servlet-class>it.unipd.dei.webapp.servlet.LandlordLoggingServlet</servlet-class>
+        </servlet>
+
+        <servlet>
+            <servlet-name>AdminLogging</servlet-name>
+            <servlet-class>it.unipd.dei.webapp.servlet.AdminLoggingServlet</servlet-class>
+        </servlet>
+
+        <servlet>
+            <servlet-name>AdminReviewApartment</servlet-name>
+            <servlet-class>it.unipd.dei.webapp.servlet.AdminReviewApartmentServlet</servlet-class>
+        </servlet>
+
+        <servlet>
+            <servlet-name>AdminUpdateApartment</servlet-name>
+            <servlet-class>it.unipd.dei.webapp.servlet.AdminUpdateApartmentServlet</servlet-class>
+        </servlet>
+
+        <servlet>
+            <servlet-name>AdminReviewLandlord</servlet-name>
+            <servlet-class>it.unipd.dei.webapp.servlet.AdminReviewLandlordServlet</servlet-class>
+        </servlet>
+
+        <servlet>
+            <servlet-name>AdminUpdateLandlord</servlet-name>
+            <servlet-class>it.unipd.dei.webapp.servlet.AdminUpdateLandlordServlet</servlet-class>
+        </servlet>
+
+        <servlet>
+            <servlet-name>AdminReviewStudent</servlet-name>
+            <servlet-class>it.unipd.dei.webapp.servlet.AdminReviewStudentServlet</servlet-class>
+        </servlet>
+
+        <servlet>
+            <servlet-name>AdminUpdateStudent</servlet-name>
+            <servlet-class>it.unipd.dei.webapp.servlet.AdminUpdateStudentServlet</servlet-class>
+        </servlet>
+
+        <servlet>
+            <servlet-name>StudnetLogging</servlet-name>
+            <servlet-class>it.unipd.dei.webapp.servlet.StudentloggingServlet</servlet-class>
+        </servlet>
+
+        <servlet>
+            <servlet-name>NewStudent</servlet-name>
+            <servlet-class>it.unipd.dei.webapp.servlet.StudnetRegistServlet</servlet-class>
+        </servlet>
+
+        <servlet>
+            <servlet-name>NewLandlord</servlet-name>
+            <servlet-class>it.unipd.dei.webapp.servlet.LandlordRegistServlet</servlet-class>
+        </servlet>
+
+        <servlet>
+            <servlet-name>ViewStudent</servlet-name>
+            <servlet-class>it.unipd.dei.webapp.servlet.ViewStudentServlet</servlet-class>
+        </servlet>
+        <servlet>
+            <servlet-name>SearchRoom</servlet-name>
+            <servlet-class>it.unipd.dei.webapp.servlet.SearchRoomServlet</servlet-class>
+        </servlet>
+        <servlet>
+            <servlet-name>CreateRoomRequest</servlet-name>
+            <servlet-class>it.unipd.dei.webapp.servlet.CreateRoomRequestServlet</servlet-class>
+        </servlet>
+        <servlet>
+            <servlet-name>ViewContract</servlet-name>
+            <servlet-class>it.unipd.dei.webapp.servlet.ViewContractServlet</servlet-class>
+        </servlet>
+        <servlet-mapping>
+            <servlet-name>CreateRoomRequest</servlet-name>
+            <url-pattern>/create-room-request</url-pattern>
+        </servlet-mapping>
+
+        <servlet-mapping>
+            <servlet-name>ViewContract</servlet-name>
+            <url-pattern>/view-contract</url-pattern>
+        </servlet-mapping>
+
+        <servlet-mapping>
+            <servlet-name>ViewMyProperty</servlet-name>
+            <url-pattern>/View-My-Property</url-pattern>
+        </servlet-mapping>
+
+        <servlet-mapping>
+            <servlet-name>SearchRoom</servlet-name>
+            <url-pattern>/search-room-result</url-pattern>
+        </servlet-mapping>
+
+        <servlet-mapping>
+            <servlet-name>ViewSpecificProperty</servlet-name>
+            <url-pattern>/View-SpecificProperty</url-pattern>
+        </servlet-mapping>
+
+        <servlet-mapping>
+            <servlet-name>ViewRentRequestLandlord</servlet-name>
+            <url-pattern>/View-RentRequest-Landlord</url-pattern>
+        </servlet-mapping>
+
+        <servlet-mapping>
+            <servlet-name>UpdateRentRequestLandlord</servlet-name>
+            <url-pattern>/Update-RentRequest-Landlord</url-pattern>
+        </servlet-mapping>
+
+        <servlet-mapping>
+            <servlet-name>AddNewApartmenttoLandlord</servlet-name>
+            <url-pattern>/New-Apartment-Landlord</url-pattern>
+        </servlet-mapping>
+
+        <servlet-mapping>
+            <servlet-name>AddNewRoomtoLandlord</servlet-name>
+            <url-pattern>/New-Room-Landlord</url-pattern>
+        </servlet-mapping>
+
+        <servlet-mapping>
+            <servlet-name>LandLordinfo</servlet-name>
+            <url-pattern>/Landlord-info</url-pattern>
+        </servlet-mapping>
+
+        <servlet-mapping>
+            <servlet-name>AdminLogging</servlet-name>
+            <url-pattern>/Admin-Logging</url-pattern>
+        </servlet-mapping>
+
+        <servlet-mapping>
+            <servlet-name>AdminReviewApartment</servlet-name>
+            <url-pattern>/Admin-ReviewApartment</url-pattern>
+        </servlet-mapping>
+
+        <servlet-mapping>
+            <servlet-name>AdminUpdateApartment</servlet-name>
+            <url-pattern>/Admin-UpdateApartment</url-pattern>
+        </servlet-mapping>
+
+        <servlet-mapping>
+            <servlet-name>AdminReviewLandlord</servlet-name>
+            <url-pattern>/Admin-ReviewLandlord</url-pattern>
+        </servlet-mapping>
+
+        <servlet-mapping>
+            <servlet-name>AdminUpdateLandlord</servlet-name>
+            <url-pattern>/Admin-UpdateLandlord</url-pattern>
+        </servlet-mapping>
+
+        <servlet-mapping>
+            <servlet-name>AdminReviewStudent</servlet-name>
+            <url-pattern>/Admin-ReviewStudent</url-pattern>
+        </servlet-mapping>
+
+        <servlet-mapping>
+            <servlet-name>AdminUpdateStudent</servlet-name>
+            <url-pattern>/Admin-UpdateStudent</url-pattern>
+        </servlet-mapping>
+
+        <servlet-mapping>
+            <servlet-name>StudnetLogging</servlet-name>
+            <url-pattern>/Studnet-Logging</url-pattern>
+        </servlet-mapping>
+
+        <servlet-mapping>
+            <servlet-name>NewStudent</servlet-name>
+            <url-pattern>/New-Studnet</url-pattern>
+        </servlet-mapping>
+
+        <servlet-mapping>
+            <servlet-name>NewLandlord</servlet-name>
+            <url-pattern>/New-Landlord</url-pattern>
+        </servlet-mapping>
+
+        <servlet-mapping>
+            <servlet-name>ViewMyProperty</servlet-name>
+            <url-pattern>/view-my-property</url-pattern>
+        </servlet-mapping>
+
+        <servlet-mapping>
+            <servlet-name>ViewStudent</servlet-name>
+            <url-pattern>/view-student</url-pattern>
+        </servlet-mapping>
+
+        <resource-ref>
+          <description>Connection pool to the database</description>
+          <res-ref-name>jdbc/property-rental</res-ref-name>
+          <res-type>javax.sql.DataSource</res-type>
+          <res-auth>Container</res-auth>
+          </resource-ref>
+    </web-app>

@@ -1,0 +1,70 @@
+<!--
+ Copyright 2018 University of Padua, Italy
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+
+ Author: Nicola Ferro (ferro@dei.unipd.it)
+ Version: 1.0
+ Since: 1.0
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Insert New Property</title>
+</head>
+
+<body>
+<h1>Insert New Property</h1>
+a//Appartment(address, ownership_proof, rooms, common_bathroom, extra_info
+// Room(app_address ,capacity_persons,Other)
+// Insert_App(landlord, app_address)
+// Verify (appartmentID, adminusername)
+
+<form method="POST" action="../create-property" enctype="multipart/form-data">
+    <label for="address">address:</label>
+    <input name="address" type="text"/><br/>
+
+    <label for="landlord">landlord:</label>
+    <input name="landlord" type="text"/><br/>
+
+    <label for="rooms">rooms:</label>
+    <input name="rooms" type="text"/><br/>
+
+    <label for="other">other:</label>
+    <input name="other" type="text"/><br/>
+
+    <label for="common_bathroom">common_bathroom:</label>
+    <input name="common_bathroom" type="number"/><br/><br/>
+
+    <label for="extra_info">extra_info:</label>
+    <input name="extra_info" type="text"/><br/>
+
+    <label for="capacity_persons">capacity_persons:</label>
+    <input name="capacity_persons" type="number"/><br/><br/>
+
+    <label for="adminusername">adminusername:</label>
+    <input name="adminusername" type="text"/><br/>
+
+    <label for="extra_info">extra_info:</label>
+    <input name="extra_info" type="text"/><br/>
+
+    <label for="ownership_proof">IMMAGINE:</label>
+    <!--<input type="text" name="description" />-->
+    <input type="file" name="ownership_proof"/>
+
+    <button type="submit">Submit</button><br/>
+    <button type="reset">Reset the form</button>
+</form>
+</body>
+</html>
